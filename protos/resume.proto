@@ -1,0 +1,69 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+message Resume {
+    string name = 1;
+    string email = 2;
+    string source_code = 3;
+    string host_link = 4;
+    PhoneNumber phone_number = 5;
+    Location location = 6;
+    string linkedin_profile = 7;
+    string github_profile = 8;
+
+    string about_me = 9;
+    repeated Education education = 10;
+    repeated Experience experience = 11;
+    repeated SkillCategory skills = 12;
+}
+
+message PhoneNumber {
+    uint32 country_code = 1;
+    uint64 number = 2;
+}
+
+message Location {
+    string city = 1;
+    string state = 2;
+    string country = 3;
+}
+
+message DateRange {
+    google.protobuf.Timestamp start = 1;
+    google.protobuf.Timestamp end = 2;
+}
+
+message Education {
+    string institution = 1;
+    string major = 2;
+    string description = 3;
+    DateRange period = 4;
+
+    enum Degree {
+        BACHELORS = 0;
+        MASTERS = 1;
+    }
+
+    Degree degree = 5;
+    Location location = 6;
+}
+
+message Experience {
+    string title = 1;
+    string organization = 2;
+    string website = 3;
+    DateRange period = 4;
+    Location location = 5;
+    repeated Duty duty = 6;
+}
+
+message Duty {
+    string description = 1;
+    repeated string tags = 2;
+}
+
+message SkillCategory {
+    string category = 1;
+    repeated string tags = 2;
+}
