@@ -45,7 +45,7 @@ experience:
   duty:
   - description: Orchestrates physics solvers on multi-cloud HPCs via Kubernetes. This enables thousand-core simulations on-demand with end-to-end encryption.
     tags: [boto3, Rusoto, Tokio, Serde, Kubernetes, Docker, Redis, Kafka, GKE, S3, EKS, DynamoDB, Lambda, Linux Bash]
-  - description: Builds machine learning models for optimizing compute resource allocation for physics solvers.
+  - description: Builds machine learning models to optimize compute resource allocation for physics solvers.
     tags: [pandas, NumPy, TensorFlow, scikit-learn, Kubernetes, Docker, Airflow, KubeFlow, BigQuery]
   - description: Responsible for maintaining CI/CD of microservice deployments, along with the pub/sub event-driven backend.
     tags: [Tornado, asyncio, Docker, Kubernetes, Prometheus, Helm, Jenkins, Git, Airflow, Redis, Kafka, Serverless, GKE, EKS, ECR, S3, CloudFormation, Linux Bash]
