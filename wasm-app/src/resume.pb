@@ -25,7 +25,7 @@ PrometheusHelmJenkinsGitAirflowRedisKafka
 ServerlessGKEEKSECRS3CloudFormation
 Linux Bash2Ã
 —Develops novel algorithms and data structures to enable highly-responsive, interactive 3D data visualizations in the web browser with minimal hardware.NumPyTornadoasyncioPlotlyCython2À
-–Created the Python-based DSL for defining simulations. Allows compiling from a single interface to multiple programming languages and physics solvers.NumPyTornadoasyncioRedisKafkaZ³
+–Created a Python-based DSL for defining simulations, which enables compiling a standardized AST to multiple programming languages and physics solvers.NumPyTornadoasyncioRedisKafkaZ³
 Quantitative AnalystLucena Researchhttps://lucenaresearch.com/"
 €·ëà€ª¿å*
 AtlantaGAUS2å

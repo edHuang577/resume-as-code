@@ -59,10 +59,6 @@ impl Component for ResumeComponent {
         let experience = res.get_experience().to_vec();
         let skills = res.get_skills().to_vec();
 
-        let source_code = res.get_source_code();
-        let source_code_https = format!("https://{}", source_code);
-        let host_link = res.get_host_link();
-
         let am_class = if self.am_hover { "am-hover" } else { "am" };
         let on_hover = self.link.callback(|_| Msg::AmHover);
         let on_clear = self.link.callback(|_| Msg::Clear);
@@ -83,37 +79,7 @@ impl Component for ResumeComponent {
                 <div class="main-column main-left">
                     <EducationComponent education=education />
                     <SkillComponent skills=skills/>
-                    <div class="links">
-                        <h2>{ "LINKS" }</h2>
-                        <ul class="links-list">
-                            <li class="screen-only">
-                                <a href="./Resume.pdf">
-                                    <i class="fa fa-external-link" aria-hidden="true"></i>
-                                    { "Download PDF of this resume" }
-                                </a>
-                            </li>
-                            <li class="screen-only">
-                                <a href=source_code_https>
-                                    <i class="fa fa-external-link" aria-hidden="true"></i>
-                                    { "View the source code" }
-                                </a>
-                            </li>
-                            <li class="print-only">
-                                { "View this resume online:" }
-                                <p>
-                                    <i class="fa fa-external-link" aria-hidden="true"></i>
-                                    { host_link }
-                                </p>
-                            </li>
-                            <li class="print-only">
-                                { "View the source code:" }
-                                <p>
-                                    <i class="fa fa-external-link" aria-hidden="true"></i>
-                                    { source_code }
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
+                    { self.view_links() }
                 </div>
                 <div class="main-column main-right">
                     <h2>{ "ABOUT ME"}</h2>
@@ -124,6 +90,49 @@ impl Component for ResumeComponent {
                     </div>
                     <ExperienceComponent experience=experience/>
                 </div>
+            </div>
+        }
+    }
+}
+
+impl ResumeComponent {
+    fn view_links(&self) -> Html {
+        let res = &self.props.resume;
+        let source_code = res.get_source_code();
+        let source_code_https = format!("https://{}", source_code);
+        let host_link = res.get_host_link();
+        let pdf_name = format!("{}-Resume.pdf", res.name.replace(" ", ""));
+        html! {
+            <div class="links">
+                <h2>{ "LINKS" }</h2>
+                <ul class="links-list">
+                    <li class="screen-only">
+                        <a href=pdf_name>
+                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                            { "Download PDF of this resume" }
+                        </a>
+                    </li>
+                    <li class="screen-only">
+                        <a href=source_code_https>
+                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                            { "View the source code" }
+                        </a>
+                    </li>
+                    <li class="print-only">
+                        { "View this resume online:" }
+                        <p>
+                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                            { host_link }
+                        </p>
+                    </li>
+                    <li class="print-only">
+                        { "View the source code:" }
+                        <p>
+                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                            { source_code }
+                        </p>
+                    </li>
+                </ul>
             </div>
         }
     }

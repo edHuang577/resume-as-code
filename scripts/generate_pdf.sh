@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-OUTFILE=${1:-Resume.pdf}
-
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 cd "$DIR"
 
@@ -20,6 +18,12 @@ if ! [[ $(python --version) ]]; then
   echo "No 'python' command found for running headless PDF generation" >&2
   exit 1
 fi
+
+OUTFILE=$(cat resume_data.yaml \
+  | grep -E "^name:\s.+$" \
+  | sed "s/name: //g" \
+  | sed "s/ //g" \
+  | xargs printf "%s-Resume.pdf\n")
 
 rm -rf dist/
 mkdir dist/
