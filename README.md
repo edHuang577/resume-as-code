@@ -117,7 +117,7 @@ Headless Chrome is used to render the static page into a PDF document that is ex
 
 <a name="aws-cli"></a>
 #### [AWS CLI](https://aws.amazon.com/cli/)
-I've chosen to host this web app on AWS, serving it statically from an S3 bucket. AWS CLI is required to upload the compiled artifacts to S3. Can be installed from [documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html), or via `pip install awscli`.
+I host the compiled web app on AWS, serving it from an S3 bucket via CloudFront. AWS CLI is required to upload the compiled artifacts to S3. Can be installed from [documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html), or via `pip install awscli`.
 
 
 
