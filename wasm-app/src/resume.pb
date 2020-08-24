@@ -9,22 +9,22 @@ R~
 #University of Alabama in HuntsvillePhysics and Mathematics+Dual Major, Physics and Applied Mathematics"
 ÄÚªÚÄÃâ´2
 
-HuntsvilleALUSZ´	
+HuntsvilleALUSZº	
 !Machine Learning Engineer, DevOpsOnScalehttps://onscale.com/"
 ÄìœÂ*
-AtlantaGAUS2˚
-çOrchestrates physics solvers on multi-cloud HPCs via Kubernetes. This enables thousand-core simulations on-demand with end-to-end encryption.boto3RusotoTokioSerde
+AtlantaGAUS2˜
+âOrchestrates physics solvers on multi-cloud HPCs via Kubernetes, enabling thousand-core simulations on-demand with end-to-end encryption.boto3RusotoTokioSerde
 KubernetesDockerRedisKafkaGKES3EKSDynamoDBLambda
-Linux Bash2∫
-^Builds machine learning models for optimizing compute resource allocation for physics solvers.pandasNumPy
+Linux Bash2“
+vBuilds machine learning models to optimize compute resource allocation for physics solvers, minimizing hardware costs.pandasNumPy
 TensorFlowscikit-learn
 KubernetesDockerAirflowKubeFlowBigQuery2Ö
 kResponsible for maintaining CI/CD of microservice deployments, along with the pub/sub event-driven backend.TornadoasyncioDocker
 Kubernetes
 PrometheusHelmJenkinsGitAirflowRedisKafka
 ServerlessGKEEKSECRS3CloudFormation
-Linux Bash2√
-óDevelops novel algorithms and data structures to enable highly-responsive, interactive 3D data visualizations in the web browser with minimal hardware.NumPyTornadoasyncioPlotlyCython2¿
+Linux Bash2¿
+îDevelops novel algorithms and data structures to enable highly-responsive, interactive 3D data visualizations in the web browser without using GPUs.NumPyTornadoasyncioPlotlyCython2¿
 ñCreated a Python-based DSL for defining simulations, which enables compiling a standardized AST to multiple programming languages and physics solvers.NumPyTornadoasyncioRedisKafkaZ≥
 Quantitative AnalystLucena Researchhttps://lucenaresearch.com/"
 Ä∑Î‡Ä™øÂ*

@@ -43,13 +43,13 @@ experience:
     start: "2019-04-15T00:00:00Z"
   location: *atlanta
   duty:
-  - description: Orchestrates physics solvers on multi-cloud HPCs via Kubernetes. This enables thousand-core simulations on-demand with end-to-end encryption.
+  - description: Orchestrates physics solvers on multi-cloud HPCs via Kubernetes, enabling thousand-core simulations on-demand with end-to-end encryption.
     tags: [boto3, Rusoto, Tokio, Serde, Kubernetes, Docker, Redis, Kafka, GKE, S3, EKS, DynamoDB, Lambda, Linux Bash]
-  - description: Builds machine learning models to optimize compute resource allocation for physics solvers.
+  - description: Builds machine learning models to optimize compute resource allocation for physics solvers, minimizing hardware costs.
     tags: [pandas, NumPy, TensorFlow, scikit-learn, Kubernetes, Docker, Airflow, KubeFlow, BigQuery]
   - description: Responsible for maintaining CI/CD of microservice deployments, along with the pub/sub event-driven backend.
     tags: [Tornado, asyncio, Docker, Kubernetes, Prometheus, Helm, Jenkins, Git, Airflow, Redis, Kafka, Serverless, GKE, EKS, ECR, S3, CloudFormation, Linux Bash]
-  - description: Develops novel algorithms and data structures to enable highly-responsive, interactive 3D data visualizations in the web browser with minimal hardware.
+  - description: Develops novel algorithms and data structures to enable highly-responsive, interactive 3D data visualizations in the web browser without using GPUs.
     tags: [NumPy, Tornado, asyncio, Plotly, Cython]
   - description: Created a Python-based DSL for defining simulations, which enables compiling a standardized AST to multiple programming languages and physics solvers.
     tags: [NumPy, Tornado, asyncio, Redis, Kafka]
