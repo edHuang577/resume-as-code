@@ -1,6 +1,6 @@
 
 
-Kyle Kosickylekosic@gmail.com!github.com/kykosic/resume-as-code"kylekosic.dev*Ñ¼·±2
+Kyle Kosickylekosic@gmail.com!github.com/kykosic/resume-as-code"cv.kylekosic.dev*Ñ¼·±2
 AtlantaGAUS:	kylekosicBkykosicJÕFull-stack data scientist and site reliability engineer with extensive background in mathematics. Self-motivated learner and problem solver with an affinity for automation, scalability, and distributed computing.
 R~
 Georgia Institute of TechnologyComputer Science"Specialization in Machine Learning"
