@@ -52,7 +52,7 @@ experience:
   - description: Develops novel algorithms and data structures to enable highly-responsive, interactive 3D data visualizations in the web browser without using GPUs.
     tags: [NumPy, Tornado, asyncio, Plotly, Cython]
   - description: Created a Python-based DSL for defining simulations, which enables compiling a standardized AST to multiple programming languages and physics solvers.
-    tags: [NumPy, Tornado, asyncio, Redis, Kafka]
+    tags: [NumPy, Tornado, asyncio, Redis, Kafka, PyO3, wasm-bindgen, Syn, Quote, Serde]
 - title: Quantitative Analyst
   organization: Lucena Research
   website: https://lucenaresearch.com/
@@ -136,6 +136,10 @@ skills:
   - Serde
   - bindgen
   - wasm-bindgen
+  - ndarray
+  - PyO3
+  - Syn
+  - Quote
   - Yew
 - category: Scala
   tags:

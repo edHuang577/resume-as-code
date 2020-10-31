@@ -9,7 +9,7 @@ R~
 #University of Alabama in HuntsvillePhysics and Mathematics+Dual Major, Physics and Applied Mathematics"
 €ò»ò€Ì‰«2
 
-HuntsvilleALUSZ¼	
+HuntsvilleALUSZã	
 !Machine Learning Engineer, DevOpsOnScalehttps://onscale.com/"
 €“Ïå*
 AtlantaGAUS2÷
@@ -24,8 +24,8 @@ Kubernetes
 PrometheusHelmJenkinsGitAirflowRedisKafka
 ServerlessGKEEKSECRS3CloudFormation
 Linux Bash2À
-”Develops novel algorithms and data structures to enable highly-responsive, interactive 3D data visualizations in the web browser without using GPUs.NumPyTornadoasyncioPlotlyCython2À
-–Created a Python-based DSL for defining simulations, which enables compiling a standardized AST to multiple programming languages and physics solvers.NumPyTornadoasyncioRedisKafkaZ³
+”Develops novel algorithms and data structures to enable highly-responsive, interactive 3D data visualizations in the web browser without using GPUs.NumPyTornadoasyncioPlotlyCython2ç
+–Created a Python-based DSL for defining simulations, which enables compiling a standardized AST to multiple programming languages and physics solvers.NumPyTornadoasyncioRedisKafkaPyO3wasm-bindgenSynQuoteSerdeZ³
 Quantitative AnalystLucena Researchhttps://lucenaresearch.com/"
 €·ëà€ª¿å*
 AtlantaGAUS2å
@@ -62,8 +62,8 @@ MatplotlibEC2
 Linux BashMySQLRbž
 PythonpandasNumPy
 TensorFlowPyTorchstatsmodelsPyMC3scikit-learnspaCynltkDaskPySparkflaskTornadoasyncioboto3
-MatplotlibPlotlybR
-RustActix	Actix-webRusotoTokioDieselSerdebindgenwasm-bindgenYewb1
+MatplotlibPlotlybm
+RustActix	Actix-webRusotoTokioDieselSerdebindgenwasm-bindgenndarrayPyO3SynQuoteYewb1
 ScalaApache SparkAWS SDKCatsCats-effectbn
 DevOpsDocker
 Kubernetes
