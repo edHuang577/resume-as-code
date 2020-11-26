@@ -73,7 +73,7 @@ h4 a {
     padding: 3rem;
     background-color: var(--background);
     overflow: auto;
-    max-width: 60rem;
+    max-width: 65rem;
     border-radius: 1rem;
     box-shadow: 0 0.5rem 1rem 0 var(--text-dark);
 }

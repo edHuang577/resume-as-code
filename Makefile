@@ -21,3 +21,6 @@ all: python rust build wasm  ## Run both Python & Rust codegens, build the resum
 
 pdf:  ## Create a rendered PDF of the resume based on the wasm app
 	./scripts/generate_pdf.sh
+
+serve:  ## Serve the `wasm-app` directory on port 8080
+	cd wasm-app && $(MAKE) serve

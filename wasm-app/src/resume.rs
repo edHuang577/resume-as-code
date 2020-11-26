@@ -109,7 +109,7 @@ impl ResumeComponent {
                     <li class="screen-only">
                         <a href=pdf_name>
                             <i class="fa fa-external-link" aria-hidden="true"></i>
-                            { "Download PDF of this resume" }
+                            { "Download a PDF of this resume" }
                         </a>
                     </li>
                     <li class="screen-only">
@@ -119,7 +119,7 @@ impl ResumeComponent {
                         </a>
                     </li>
                     <li class="print-only">
-                        { "View this resume online:" }
+                        { "View this resume as a WebAssembly app:" }
                         <p>
                             <i class="fa fa-external-link" aria-hidden="true"></i>
                             { host_link }
