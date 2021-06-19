@@ -9,11 +9,14 @@ R~
 #University of Alabama in HuntsvillePhysics and Mathematics+Dual Major, Physics and Applied Mathematics"
 ÄÚªÚÄÃâ´2
 
-HuntsvilleALUSZ‡	
-.Software Engineer, DevOps and Machine LearningOnScalehttps://onscale.com/"
-ÄìœÂ*
+HuntsvilleALUSZ[
+Member of Technical StaffOpenAIhttps://openai.com/"
+ÄõŒÉ*
+San FranciscoCAUSZ™
+.Software Engineer, DevOps and Machine LearningOnScalehttps://onscale.com/"
+ÄìœÂÄÏ≥É*
 AtlantaGAUS2˜
-âOrchestrates physics solvers on multi-cloud HPCs via Kubernetes, enabling thousand-core simulations on-demand with end-to-end encryption.boto3RusotoTokioSerde
+âOrchestrated physics solvers on multi-cloud HPCs via Kubernetes, enabling thousand-core simulations on-demand with end-to-end encryption.boto3RusotoTokioSerde
 KubernetesDockerRedisKafkaGKES3EKSDynamoDBLambda
 Linux Bash2è
 eResponsible for building and maintaining CI/CD infrastructure for the microservice application stack.TornadoasyncioDocker
@@ -21,11 +24,10 @@ Kubernetes
 PrometheusHelmJenkinsGitHub ActionsGitAirflowRedisKafka
 ServerlessGKEEKSECRS3CloudFormation
 Linux Bash2›
-ëOwner of the core simulation API framework, which has bindings to multiple programming languages and compiles generically for any physics solver.PyO3wasm-bindgenbindgenSynQuoteSerdeNumPyasyncioTornado2»
-vBuilds machine learning models to optimize compute resource allocation for physics solvers, minimizing hardware costs.pandasNumPy
+ëOwner of the core simulation API framework, which has bindings to multiple programming languages and compiles generically for any physics solver.PyO3wasm-bindgenbindgenSynQuoteSerdeNumPyasyncioTornado2«
+uBuilt machine learning models to optimize compute resource allocation for physics solvers, minimizing hardware costs.pandasNumPy
 TensorFlowscikit-learn
-KubernetesDockerAirflowBigQuery2∫
-éDesigns novel algorithms and data structures to enable highly-responsive, interactive 3D data visualizations in the web browser via websocket.NumPyTornadoasyncioPlotlyCythonZ≥
+KubernetesDockerAirflowBigQueryZ≥
 Quantitative AnalystLucena Researchhttps://lucenaresearch.com/"
 Ä∑Î‡Ä™øÂ*
 AtlantaGAUS2Â
@@ -51,15 +53,12 @@ PostgreSQLZ£
 Linux BashR2£
 dDesigned NLP models to automate master data entity matching, saving thousands of analyst work hours.pandasNumPyscikit-learnEC2CythonMySQL
 Linux Bash2“
-|Built models for predicting patient-level adherence gaps in high-value specialty pharma, allowing for proactive resolutions.pandasNumPyscikit-learnApache SparkAWS SDKDockerEC2BatchRDSMySQLZÓ
+|Built models for predicting patient-level adherence gaps in high-value specialty pharma, allowing for proactive resolutions.pandasNumPyscikit-learnApache SparkAWS SDKDockerEC2BatchRDSMySQLZ∏
 Senior Data AnalystIntegriChainhttps://www.integrichain.com/"
 Ä¿∫µÄâˇÀ*
 PhiladelphiaPAUS2…
 `Migrated on-prem data services to AWS, refactoring legacy ETL code into modern Python and Scala.pandasNumPyboto3Apache SparkAWS SDKCatsCats-effectS3EMRGlueRDS
-Linux BashMySQL2≥
-nAutomated data quality monitoring with periodic reports, anomaly detection models, and interactive dashboards.pandasNumPystatsmodels
-MatplotlibEC2
-Linux BashMySQLRb_
+Linux BashMySQLb_
 RustActix	Actix-webRusotoTokioDieselSerdebindgenwasm-bindgenPyO3SynQuotebû
 PythonpandasNumPy
 TensorFlowPyTorchstatsmodelsPyMC3scikit-learnspaCynltkDaskPySparkflaskTornadoasyncioboto3

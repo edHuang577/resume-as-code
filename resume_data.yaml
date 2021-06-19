@@ -36,23 +36,31 @@ education:
     state: AL
     country: US
 experience:
+- title: Member of Technical Staff
+  organization: OpenAI
+  website: https://openai.com/
+  period:
+    start: "2021-04-12T00:00:00Z"
+  location: &sanfran
+    city: San Francisco
+    state: CA
+    country: US
 - title: Software Engineer, DevOps and Machine Learning
   organization: OnScale
   website: https://onscale.com/
   period:
     start: "2019-04-15T00:00:00Z"
+    end: "2021-04-07T00:00:00Z"
   location: *atlanta
   duty:
-  - description: Orchestrates physics solvers on multi-cloud HPCs via Kubernetes, enabling thousand-core simulations on-demand with end-to-end encryption.
+  - description: Orchestrated physics solvers on multi-cloud HPCs via Kubernetes, enabling thousand-core simulations on-demand with end-to-end encryption.
     tags: [boto3, Rusoto, Tokio, Serde, Kubernetes, Docker, Redis, Kafka, GKE, S3, EKS, DynamoDB, Lambda, Linux Bash]
   - description: Responsible for building and maintaining CI/CD infrastructure for the microservice application stack.
     tags: [Tornado, asyncio, Docker, Kubernetes, Prometheus, Helm, Jenkins, GitHub Actions, Git, Airflow, Redis, Kafka, Serverless, GKE, EKS, ECR, S3, CloudFormation, Linux Bash]
   - description: Owner of the core simulation API framework, which has bindings to multiple programming languages and compiles generically for any physics solver.
     tags: [PyO3, wasm-bindgen, bindgen, Syn, Quote, Serde, NumPy, asyncio, Tornado]
-  - description: Builds machine learning models to optimize compute resource allocation for physics solvers, minimizing hardware costs.
+  - description: Built machine learning models to optimize compute resource allocation for physics solvers, minimizing hardware costs.
     tags: [pandas, NumPy, TensorFlow, scikit-learn, Kubernetes, Docker, Airflow, BigQuery]
-  - description: Designs novel algorithms and data structures to enable highly-responsive, interactive 3D data visualizations in the web browser via websocket.
-    tags: [NumPy, Tornado, asyncio, Plotly, Cython]
 - title: Quantitative Analyst
   organization: Lucena Research
   website: https://lucenaresearch.com/
@@ -104,8 +112,6 @@ experience:
   duty:
   - description: Migrated on-prem data services to AWS, refactoring legacy ETL code into modern Python and Scala.
     tags: [pandas, NumPy, boto3, Apache Spark, AWS SDK, Cats, Cats-effect, S3, EMR, Glue, RDS, Linux Bash, MySQL]
-  - description: Automated data quality monitoring with periodic reports, anomaly detection models, and interactive dashboards.
-    tags: [pandas, NumPy, statsmodels, Matplotlib, EC2, Linux Bash, MySQL, R]
 skills:
 - category: Rust
   tags:
